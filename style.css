@@ -1,0 +1,209 @@
+* {
+    /* '*' is sign for all */
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+    /* color: green;*/
+    /*in h1 tag font colour change*/
+}
+
+body {
+    background-color: gray;
+    color: red;
+    /*inside the body font colour change*/
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serifs;
+    /*font style change*/
+    font-size: medium;
+    font-weight: bold;
+    /*weither the font is bold italic and also we can mention by number */
+
+    line-height: 1.6 m;
+    margin: 1px;
+    /*margin is for space in upper side*/
+}
+
+.container {
+    /*width: 500px; */
+    /* px is not flexible so always use %*/
+    width: 500%;
+    /*% is responsible*/
+    margin: auto;
+    /*margin auto is for middle paragraph*/
+}
+
+.button [type="submit"] {
+    background-color: orange;
+    color: chartreuse;
+    padding: 10px 15px;
+    border: none;
+}
+
+.clr {
+    clear: both;
+}
+
+a {
+    /*a is for whole page*/
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover {
+    color: blue;
+}
+
+a:active {
+    color: brown;
+}
+
+.box-1 {
+    background-color: beige;
+    /* inside the box whole background color change*/
+    color: blueviolet;
+    /* this is for font color*/
+
+    border-right: 5px red solid;
+    /*right side boader red line*/
+    border-left: 5px red solid;
+    border-bottom: 5px red solid;
+    border-top: 5px red solid;
+    /* we can write as same the above*/
+
+    border: 5px red solid;
+
+    /*If we want to set boder width*/
+    border-width: 3px;
+    border-bottom-width: 15px;
+    border-top-style: dotted;
+    /*we also can style*/
+
+    /*Come to padding*/
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    /*same as above*/
+
+    padding: 20px;
+
+}
+
+.box-1 h1 {
+    font-family: tahoma;
+    /*font style*/
+    font-weight: 800;
+    font-style: italic;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    word-spacing: 1em;
+}
+
+.box-2 {
+    border: 3px;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.categories {
+    border: 1px gold solid;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.categories h2 {
+    text-align: center;
+}
+
+.categories ul {
+    padding: 0;
+    padding-left: 20px;
+    list-style: square;
+    list-style: none;
+}
+
+.categories li {
+    padding-bottom: 8px;
+    border-bottom: dotted 1px #aaa;
+    list-style-image: url('../images/check.png');
+    /*download one images from google*/
+}
+
+/*Lets make form*/
+
+.my-form {
+    padding: 20px;
+}
+
+.my-form.form-group {
+    padding-bottom: 15px;
+}
+
+.my-form label {
+    display: block;
+}
+
+.my-form input [type="text"],
+.my-form textarea {
+    padding: 8px;
+    width: 100px;
+}
+
+/*Alignment and Floatong*/
+
+.block {
+    float: left;
+    width: 33.3%;
+}
+
+/*# is use for id and .(dot) is use for class*/
+
+#main-block {
+    float: left;
+    width: 70px;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+#sidebar {
+    float: right;
+    width: 30%;
+    background-color: chocolate;
+    color: white;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+/*Positioning*/
+
+.p-box {
+    width: 800px;
+    height: 500px;
+    border: 1ox solid #000;
+    margin-top: 30px;
+    position: relative;
+}
+
+.p-box h1 {
+    /*position change it goes top top of the page*/
+    position: absolute;
+    top: 40px;
+    left: 200px;
+}
+
+.p-box h2 {
+    /*for goodbye*/
+    position: absolute;
+    bottom: 40px;
+    right: 100px;
+
+}
+
+.fix-me{
+    position:fixed;  /*this is for the buttun seen us rether we scroll or not*/
+    top: 400px;
+}
